@@ -1,0 +1,118 @@
+@import url('https://fonts.google.com/specimen/Libre+Franklin');
+
+:root{
+    --gray: hsl(0, 0%, 59%);
+    --very-Dark-Blue: hsl(209, 33%, 12%);
+    --pale-blue: hsl(223, 100%, 88%);
+    --light-red: hsl(354, 100%, 66%);
+    --blue: hsl(223, 87%, 63%);
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    background-color: transparent;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+
+
+h1{
+    font-size: 30px;
+    text-align: center;
+    line-height: 1.1;
+}
+h1 span{
+    color: var(--gray);
+    font-weight: 200;
+}
+h4{
+    color: var(--gray);
+    text-align: center;
+    padding: 10px;
+}
+form {
+    text-align: center;
+    
+  }
+input{
+    font-size: 15px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    padding: 10px 0px 10px 10px;
+    
+  }
+
+.btn{
+    background-color:var(--blue);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 0px 10px 10px;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn:hover{
+    background-color: var(--very-Dark-Blue);
+    color: white;
+}
+small{
+    color: var(--light-red);
+    display: none;
+    margin-top: 2px;
+    margin-right: 80px;
+    line-height: 2.6;
+}
+
+
+.logo img{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding: 20px;
+}
+
+.main img {
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.fav-icon{
+    padding: 20px;
+   font-size: 20px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 15%;
+   
+}
+.fav-icon:hover {
+    opacity: 1.7;
+    background-color: transparent;
+  }
+
+.copy{
+    padding: 20px;
+    font-size: 13px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    color: var(--gray);
+}
+
+
